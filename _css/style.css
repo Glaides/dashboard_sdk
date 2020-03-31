@@ -1,0 +1,152 @@
+body {
+    overflow: hidden;
+    padding: 0.2rem;
+    overflow: -moz-scrollbars-vertical;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+/* TIRA O ESPAÇAMENTO NATURAL DA TABLE */
+
+th,
+td {
+    padding: 2px !important;
+}
+
+
+
+
+/* CABEÇALHO E METRICAS */
+
+.cabecalho,
+.metrica {
+    text-align: center;
+    padding: 0.77rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.cabecalho{
+    padding: 0.1rem;
+    font-size: 2.15rem;
+}
+
+/* AJUSTA AS TABELAS DO SLA */
+
+.sla {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.info_sla {
+    font-weight: bold;
+}
+
+
+/* ESPERANDO */
+
+.temporizador,
+.contador {
+    text-align: center;
+    color: white;
+    padding: 0.30rem;
+    border-radius: 5px;
+}
+
+.temporizador {
+    padding: 0.5rem;
+}
+
+.contador {
+    margin-top: 0%;
+    padding-top: 0%;
+    font-weight: bold;
+}
+
+
+/* INFORMAÇÕES/DADOS DO DASHBOARD */
+
+.info {
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    font-size: 2.9rem;
+    font-weight: bold;
+}
+
+
+/* A FILA TEM UM TAMANHO DIFERENCIADO */
+
+.fila {
+    padding: 26.5px;
+    
+}
+
+.info_fila {
+    font-size: 4rem;
+    
+}
+
+.info_tma,
+.info_tme {
+    font-size: 1rem;
+    padding: 0rem;
+    padding-bottom: 0rem;
+}
+
+.info_fila {
+    padding-bottom: 0px !important;
+    border-radius: 5px;
+}
+.tma_tme {
+    padding: 0rem;
+    padding-top: 0.20rem;
+    padding-bottom: 0.20rem;
+    font-size: 1rem;
+}
+
+.recebidas {
+    background-color: #F0A32F;
+    padding: 1px !important;
+}
+
+.atendidas {
+    background-color: #56B949;
+    padding: 1px !important;
+}
+
+.efetuadas {
+    background-color: #30499B;
+    padding: 1px !important;
+}
+
+.abandonadas {
+    background-color: #EE4035;
+    padding: 1px !important;
+}
+
+.table_sla {
+    color: white;
+    width: 100px;
+    font-size: small;
+}
+
+.mic{
+    text-align: center;
+    padding: 0.35rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.mic_on{
+    padding: 0.81rem !important;
+    background-color: #56B949;
+}
+
+.mic_off{
+    background-color: #EE4035;
+}
